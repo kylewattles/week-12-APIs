@@ -1,31 +1,4 @@
 
-/*const userContainer = document.getElementById("users");
-let users = [];
-
-const fetchUsers = async () => {
-    
-    
-    try{
-    const URL = "https://reqres.in/api/users/";
-    const response = await fetch(URL);
-    const data = await response.json();
-    users = data.data;
-   
-} catch (error) {
-    console.log("failed to catch pokemon :(", error);
-    userContainer.innerHTML = "<li>Failed to load :(</li>";
-    return;
-    }
-    let template = "";
-    users.forEach((user, index) => {
-        template += `<li>${index + 1} ${user.first_name}</li>`;
-        
-    });
-
-    userContainer.innerHTML = template;
-    
-}
-fetchUsers();*/
 
 (() => {
 
